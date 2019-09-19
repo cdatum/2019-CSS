@@ -1,0 +1,239 @@
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Roboto:400,700&display=swap" rel="stylesheet">
+<style>
+
+/*
+New fonts for 2019 CCAC website:
+
+font-family: 'Roboto Slab', serif; (for h1)
+font-family: 'Roboto', sans-serif;  (for hyperlinks - bold)
+
+*/
+
+    /*---remove skiplink space ---*/
+
+    #s-lg-public-skiplink {
+        padding: 0px;
+        border-right: 0px;
+        border-bottom: 0px;
+    }
+    #header {
+        width: 100%;
+        height: 75px;
+        position: relative;
+        background: #c41230;
+        margin: 0px auto 0px auto;
+        padding: 0;
+        float: left;
+    }
+    .logo {
+        margin: 0;
+        float: left;
+        height: 40px;
+        padding: 10px;
+    }
+    .container-fluid {
+        background-color: #666
+    }
+    .navbar-nav {
+        background-color: #666;
+        margin-top: 0;
+        width: 100%;
+        border-color: #000
+    }
+    .navbar-nav li a {
+        color: #fff;
+        font-size: 13px;
+        font-weight: 700
+    }
+    .navbar-nav li .dropdown-menu li a {
+        color: #000
+    }
+    .navbar-nav .open .dropdown-menu .active a,
+    .navbar-nav .open .dropdown-menu .active a:hover,
+    .navbar-nav .open .dropdown-menu .active a:focus {
+        color: #000;
+        background-color: #fff
+    }
+    .navbar-toggle {
+        border-color: #c41230
+    }
+    .navbar-collapse,
+    .navbar-form {
+        border-color: #fff
+    }
+    .navbar-nav .navbar-brand,
+    .navbar-nav .navbar-brand:hover,
+    .navbar-default .navbar-brand:focus,
+    .navbar-nav .navbar-text,
+    .navbar-link,
+    .navbar-link:hover {
+        color: #fff
+    }
+    .navbar-nav li a:hover,
+    .navbar-nav li a:focus,
+    .navbar-nav li .dropdown-menu li a:hover,
+    .navbar-nav li .dropdown-menu li a:focus {
+        color: #fff;
+        background-color: #c41230
+    }
+    .navbar-nav li .dropdown-menu,
+    .navbar-nav li .dropdown-menu li .divider,
+    .navbar-toggle .icon-bar {
+        background-color: #fff
+    }
+    .navbar-nav .open a:focus,
+    .navbar-toggle:hover,
+    .navbar-toggle:focus {
+        background-color: #c41230
+    }
+    @media max-width 767px {
+        .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+        .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+        .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+            color: #fff;
+            background-color: #000
+        }
+        .navbar-default .navbar-nav .open .dropdown-menu > li > a,
+        .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+        .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+            color: #000
+        }
+    }
+    img {
+        box-shadow: none;
+        border-style: none;
+        border: 0;
+    }
+    body,
+    body.s-lg-guide-body {
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        color: #000000;
+        line-height: 21px;
+        padding-left: 15px;
+        padding-right: 15px;
+
+    }
+    a:link,
+    a:visited {
+        color: #c41230;
+        text-decoration: none;
+font-weight: bold;
+
+    }
+    a:hover {
+        color: #c41230;
+        text-decoration: underline;
+    }
+
+h1, h2, h3 {
+        font-family: 'Roboto Slab', serif;
+    }
+
+h1 {
+    font-weight: 700;
+}
+    h2 {
+        font-size: 24px;
+        line-height: 1.25;
+    }
+    h3 {
+        font-size: 20px;
+        line-height: 1.25;
+    }
+    /* --- search box ---*/
+
+    #s-lg-guide-header-search {
+        display: none;
+    }
+    /* --- box titles ---*/
+
+    .s-lib-box-title {
+        background-color: #666666;
+        background-image: none;
+        color: #ffffff;
+        font-size: 14px;
+        border-bottom: 0px solid #cccccc;
+        border-radius: 0;
+    }
+    /* --- bar under tabs ---*/
+
+    #s-lg-guide-tabs-title-bar {
+        border-top: 1px solid #666666;
+    }
+    /* --- font in boxes ---*/
+
+    .s-lib-box {
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        color: #000000;
+    }
+
+/* Font size for Books from Catalog */
+.s-lg-book-title, s-lg-book-author  {
+font-family: 'Roboto', serif;
+font-weight: bold;
+font-size: 1.2em;
+line-height: 1em;
+}
+
+s-lg-book-by {
+font-family: 'Roboto', serif;
+font-weight: bold;
+font-size: 1em;
+line-height: 1em;
+}
+
+
+    /* --- tabs in boxes ---*/
+
+    li.ui-tabs-active a {
+        background: #c41230;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        color: #FFF !important;
+        text-decoration: none;
+    }
+    .ui-tabs-anchor {
+        background-color: #666666;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        color: #FFF !important;
+        text-decoration: none;
+    }
+    /* --- best bet button ---*/
+
+    .label-success {
+        background-color: #923C3C;
+    }
+    /* --- new button ---*/
+
+    .label-info {
+        background-color: #923C3C;
+    }
+
+    /* --- popular  button ---*/
+
+    .label-primary {
+        background-color: #923C3C;
+    }
+
+    /* --- new  button ---*/
+
+    .label {
+        background-color: #923C3C;
+    }
+
+
+    /* --- email button ---*/
+
+    .s-lib-profile-email {
+        display: none;
+    }
+    /* Hide the trial database box on the A-Z list page*/
+
+    #s-lg-az-trials-div {
+        display: none !important;
+    }
+    ;
+</style>
