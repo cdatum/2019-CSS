@@ -26,7 +26,7 @@ font-family: 'Roboto', sans-serif;  (for hyperlinks - bold)
 
 /* Font size for UL links */
 .s-lg-link-list>li>div>span>a, .s-lg-link-list>li>div>a, .s-lg-system-list>li>a {
-  font-size: 1.3em;
+  font-size: 1.2em;
   line-height: 1em;
 }
 
@@ -223,7 +223,7 @@ h3 {
 }
 
 /* Font size for Books from Catalog */
-.s-lg-book-title, s-lg-book-author {
+.s-lg-book-title, .s-lg-book-author {
   font-family: 'Roboto', serif;
   font-weight: bold;
   font-size: 1.2em;
