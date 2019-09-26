@@ -50,6 +50,7 @@ div[id^="s-lg-widget-"] li>a {
   border-bottom: 0px;
 }
 
+/* --- header and navbar --- */
 #header {
   width: 100%;
   height: 75px;
@@ -149,6 +150,7 @@ div[id^="s-lg-widget-"] li>a {
   }
 }
 
+/* --- body, text, and links --- */
 img {
   box-shadow: none;
   border-style: none;
@@ -195,6 +197,12 @@ h3 {
   line-height: 1.25;
 }
 
+/* --- font on subject guides list page libguides.ccac.edu ---*/
+#subject-wrapper > div > p > a {
+    font-weight: normal;
+}
+
+
 /* --- search box ---*/
 #s-lg-guide-header-search {
   display: none;
@@ -222,7 +230,7 @@ h3 {
   color: #000000;
 }
 
-/* Font size for Books from Catalog */
+/* --- font size for books from catalog ---*/
 .s-lg-book-title, .s-lg-book-author {
   font-family: 'Roboto', serif;
   font-weight: bold;
@@ -279,7 +287,7 @@ li.ui-tabs-active a {
   display: none;
 }
 
-/* Hide the trial database box on the A-Z list page*/
+/*--- Hide the trial database box on the A-Z list page ---*/
 #s-lg-az-trials-div {
   display: none !important;
 }
